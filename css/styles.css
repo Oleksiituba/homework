@@ -2,3 +2,25 @@ body {
     background-color: #fff;
     color: #2a2a2a;
 }
+
+.box-red{
+    background-color: red
+;
+width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.green{
+    background-color: rgba(20,73,20,0.6);
+width: 120px;
+height: 120px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.blue{
+
+}
