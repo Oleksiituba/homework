@@ -14,16 +14,19 @@ body {
 .box-red{
     background-color: red
 ;
-width: 200px;
-    height: 200px;
-    position: absolute;
-    
+width: 100px;
+    height: 100px;
+   
+    transform:scale(1.1)
+ 
 }
+
 .green{
     background-color: rgba(20,73,20,0.6);
-width: 120px;
-height: 120px;
-position: absolute;
+width: 100px;
+height: 100px;
+transition-property: transform;transition-duration: 1000ms; 
+
 
 
 
@@ -32,8 +35,18 @@ position: absolute;
 
 .blue{
     background-color:blue;
-width: 80px;
-    height: 80px;
-    position: absolute;
-    z-index: -1;
+width: 100px;
+    height: 100px;
+ /* transform: rotate(360deg) ; 
+transition-property: transform;
+    transition-duration: 1000ms;
+    transition-delay: 1000ms;
+    transition-timing-function: ;
+    cursor: pointer; */
+transition: transform 1000ms ease-in-out, background-color 1000ms : black ;
 }
+.blue:hover{
+    transform: rotate(-360deg)
+
+}
+    
