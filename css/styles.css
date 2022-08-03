@@ -16,11 +16,22 @@ body {
 ;
 width: 100px;
     height: 100px;
-   
-    transform:scale(1.1)
- 
-}
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: uppercase;
+   color: #fff;
+   background-color:gray
+;
+animation-duration: rotator;
+animation-duration: 2000ms;
+animation-direction: normal;
+animation-timing-function: linear;
+ animation-iteration-count: 1;
+ aps
 
+}
+/* 
 .green{
     background-color: rgba(20,73,20,0.6);
 width: 100px;
@@ -49,4 +60,4 @@ transition: transform 1000ms ease-in-out, background-color 1000ms : black ;
     transform: rotate(-360deg)
 
 }
-    
+     */
